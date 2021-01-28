@@ -9,3 +9,12 @@
 
 http://php.net/manual/fr/function.mt-rand.php
 */
+?>
+
+<form method="get" action="script.php">
+    <label for="x">X:</label>
+    <input type="number" name="x" id="x">
+    <label for="y">Y:</label>
+    <input type="number" name="y" id="y">
+    <input type="submit" value="submit">
+</form>
